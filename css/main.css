@@ -94,6 +94,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-toggler-icon{
+  color: #ffffff;
+  background-color: #FF8606;
+}
+
+.navbar-nav {
+  float: left;
+}
+
+.nav-link:hover {
+  background-color: #FF8606;
+  filter: opacity(75%);
+}
+
 
 
 
