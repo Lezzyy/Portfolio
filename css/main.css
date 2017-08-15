@@ -112,11 +112,31 @@ textarea {
   filter: opacity(75%);
 }
 
+h1 {
+  color: #FF8606;
+}
+
+/*.btn-custom {
+  display: flex;
+  text-align: center;
+}*/
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+.contact {
+  background-color: #FF8606;
+}
 
 
-
-
-
+footer {
+  background-color: #4A5059;
+}
 
 
 

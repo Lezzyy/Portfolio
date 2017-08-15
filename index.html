@@ -37,37 +37,44 @@
     <![endif]-->
 
   <!-- TU CODE ICI -->
-<header>
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <header>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <a class="navbar-brand text-white" href="#">LOGO</a>
+      <a class="navbar-brand text-white" href="#">LOGO</a>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <div class="navbar-nav d-flex justify-content-end">
-        <a class="nav-link text-white p-2" href="#">Accueil <span class="sr-only">(current)</span></a>
-        <a class="nav-link text-white p-2" href="#">Portfolio</a>
-        <a class="nav-link text-white p-2" href="#">Competences</a>
-        <a class="nav-link text-white p-2" href="#">Culture</a>
-        <a class="nav-link text-white p-2" href="#">Contact</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="navbar-nav d-flex justify-content-end">
+          <a class="nav-link text-white p-2" href="#">Accueil <span class="sr-only">(current)</span></a>
+          <a class="nav-link text-white p-2" href="#">Portfolio</a>
+          <a class="nav-link text-white p-2" href="#">Competences</a>
+          <a class="nav-link text-white p-2" href="#">Culture</a>
+          <a class="nav-link text-white p-2" href="#contact">Contact</a>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
-<!--title-->
-<div class="container">
-  <div class="row">
-    <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">LAURE-ANNE URBANIAK <br> DEVELOPPEUSE WEB</h1>
+  <!--title-->
+  <div class="container">
+    <div class="row">
+      <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">LAURE-ANNE URBANIAK <br> DEVELOPPEUSE WEB</h1>
+      <button type="button" name="button" class="btn btn-custom center-block">ME CONTACTER</button>
+    </div>
     <hr class="separator">
   </div>
-</div>
-<!--end title-->
+  <!--end title-->
 
   <!--Portfolio-->
-
-
+  <section class="container-fluid experiences">
+    <div class="container">
+      <div class="row">
+        <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="experience">Portfolio</h2>
+      </div>
+      <hr class="separator">
+    </div>
+  </section>
 
 
   <!--end portfolio-->
@@ -78,48 +85,60 @@
       <div class="row">
         <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="experience">Expériences</h2>
         <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-          <h3>Etudes de communication</h3>
-          <p>
+          <h3 class="text-center">Etudes de communication</h3>
+          <p class="text-center">
             Licence et master spécialité digitale à l'ISTC.</br>
             Marketing digital, social media, gestion, graphisme, anglais, communication externe...</br>
             Obtention du TOEIC niveau B2 (870/990).
           </p>
         </article>
         <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-          <h3>Communication digitale</h3>
-          <p>
+          <h3 class="text-center">Communication digitale</h3>
+          <p class="text-center">
             Stage de 5 mois puis alternance d'un an en tant que chargée de communication digitale au sein d'Humanis.</br>
             <strong>Missions principales</strong> : développer le contenu sur le site web et gérer la newsletter.
           </p>
         </article>
         <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-          <h3>Nouvelle-Zélande</h3>
-          <p>
+          <h3 class="text-center">Nouvelle-Zélande</h3>
+          <p class="text-center">
             Césure de 5 mois en Nouvelle-Zélande.</br>
             Conseillère bénévole en communication au sein d'une association Polonaise.</br>
             Femme de ménage chez un grand concessionnaire automobile.
           </p>
         </article>
       </div>
-      <hr class="separator">
     </div>
   </section>
   <!--end experiences-->
 
-  <section class="container-fluid">
-    <div class="row">
-      <hr class="separator">
-      <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img src="img/LAU.png">
-      </article>
-      <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <p>Pour tous renseignements, n'hésitez pas à me contacter : <br> laureanne.urbaniak@gmail.com <br> 06 72 65 65 34</p>
-        <button type="button" name="button" class="btn btn-custom">CONTACTER</button>
-      </article>
+  <!--contact-->
+
+  <section class="container-fluid contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center text-white">Contact</h2>
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img src="img/LAU.png">
+        </article>
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <p class="text-white">Pour tous renseignements, n'hésitez pas à me contacter : <br>
+            <i class="small material-icons">email</i>laureanne.urbaniak@gmail.com <br>
+            <i class="small material-icons">perm_phone_msg</i>06 72 65 65 34</p>
+        </article>
+      </div>
     </div>
   </section>
 
+  <!--end contact-->
 
+  <!--footer-->
+  <footer>
+    <p>twitter</p>
+
+  </footer>
+
+  <!--end footer-->
 
 
 
