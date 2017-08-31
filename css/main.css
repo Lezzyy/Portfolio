@@ -99,40 +99,78 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #000000;
+}
+
 .navbar-default {
-  background-color: #C4ACA0;
+  background-color: #000000;
   color: #c4aca0;
+  height: 100px;
 }
 
 .tab-space {
   padding-left: 1em;
 }
 
+.tab-space:hover {
+  background-color: #7733FA;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.title {
+  background-color: #7733FA;
+  height: 300px;
+}
 
 h1 {
-  color: #86656C;
+  color: #ffffff;
   margin-top: 50px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 #img-presentation {
   margin-top: 20px;
 }
 
-/*.btn-custom {
-  display: flex;
-  text-align: center;
-}*/
+.btn-custom {
+  background-color: #71637D;
+}
+
+.btn-custom:hover {
+  background-color: #D5B699;
+}
 
 h2 {
   font-size: 200%;
+  color: #ffffff;
 }
 
 h3 {
   font-size: 150%;
+  color: #ffffff;
+}
+
+b {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+.material-icons.colorIcon {
+  color: #7733FA;
+}
+
+.info {
+  background-color: ##71637D;
 }
 
 .contact {
-  background-color: #FF8606;
+  background-color: #71637D;
   margin-bottom: 0;
   padding: 0;
 }
