@@ -103,6 +103,40 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+header {
+  height: 40px;
+}
+
+nav {
+  width: auto;
+  text-align: left;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Shadows Into Light Two', cursive;
+  text-decoration: none;
+}
+
+
+nav li {
+  text-decoration: none;
+  padding-left: 6px;
+  float: right;
+  color: #000000;
+}
+
+nav a {
+  font-size: 0.8em;
+}
+
+nav a:hover {
+  border-bottom: 0;
+}
+
 .home {
   width: 100%;
   max-width: 100%;
@@ -117,6 +151,29 @@ body {
 .background img {
   width: 100%;
   max-width: 100%;
+}
+
+.inner-background {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-background img {
+  max-width: 100%;
+  height: auto;
+}
+
+.inner-background h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.inner-background .btn-custom {
+  background-color: #2E0927;
+  color: #ffffff;
 }
 
 
