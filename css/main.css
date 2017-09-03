@@ -110,27 +110,24 @@ header {
 nav {
   width: auto;
   text-align: left;
-
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: 'Shadows Into Light Two', cursive;
   text-decoration: none;
 }
 
-
 nav li {
-  text-decoration: none;
-  padding-left: 6px;
+  padding-left: 10px;
   float: right;
-  color: #000000;
 }
 
 nav a {
-  font-size: 0.8em;
+  text-decoration: none;
+  font-size: 1em;
+  color: #000000;
 }
 
 nav a:hover {
@@ -176,83 +173,47 @@ nav a:hover {
   color: #ffffff;
 }
 
-
-/*.navbar-default {
-  background-color: #000000;
-  color: #c4aca0;
-  height: 100px;
-}
-
-.tab-space {
-  padding-left: 1em;
-}
-
-.tab-space:hover {
-  background-color: #7733FA;
-  text-decoration: none;
-  color: #ffffff;
-}*/
-
-
-/*.background {
-  background-color: #000000;
-}
-
-h1 {
-  color: #ffffff;
-  margin-top: 50px;
-  font-family: 'Fjalla One', sans-serif;
-}
-
-#img-presentation {
-  margin-top: 20px;
-}
-
-.btn-custom {
-  background-color: #71637D;
-}
-
-.btn-custom:hover {
-  background-color: #D5B699;
-}
-
-h2 {
-  font-size: 200%;
-  color: #ffffff;
-}
-
-h3 {
-  font-size: 150%;
-  color: #ffffff;
-}
-
-b {
-  color: #ffffff;
-}
-
-p {
-  color: #ffffff;
-}
-
-.material-icons.colorIcon {
-  color: #7733FA;
-}
-
 .info {
-  background-color: ##71637D;
+  background-color: #25064C;
+  height: 300px;
+  color: #ffffff;
+  border-radius: 10px ;
 }
+
+.stage{
+  background-color:#36175E;
+  height: 300px;
+  color: #ffffff;
+  border-radius: 10px ;
+}
+
+.abroad{
+  background-color: #7B52AB;
+  height: 300px;
+  color: #ffffff;
+  border-radius: 10px ;
+}
+
+article{
+  padding-left: 4px;
+}
+
 
 .contact {
-  background-color: #71637D;
+  background-color: #36175E;
   margin-bottom: 0;
   padding: 0;
+}
+
+.form{
+  color: #ffffff;
 }
 
 footer {
   background-color: #4A5059;
   margin-top: 0;
   padding: 0;
-}*/
+}
 
 
 /* ==========================================================================
