@@ -13,9 +13,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!--Materialize css -->
-  <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -39,44 +38,23 @@
   <!-- TU CODES ICI -->
   <header>
     <div class="container">
-      <a href="" class="logo">LOGO</a>
       <nav id="menu" class="menu">
         <ul>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="">À propos</a></li>
-          <li><a href="#experience">Expérience</a></li>
-          <li><a href="">Compétences</a></li>
+          <li><a href="#apropos">À propos</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
         </ul>
       </nav>
     </div>
-    <!-- <nav class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img alt="Logo" src="..." id="logo">
-          </a>
-          <a href="#" class="tab-space">Portfolio</a>
-          <a href="#" class="tab-space">Expériences</a>
-          <a href="#" class="tab-space">Compétences</a>
-          <a href="#" class="tab-space">Contact</a>
-        </div>
-      </div>
-    </nav> -->
 
-  </header>
-
-  <!--title-->
-  <section class="home">
-    <div class="container-fluid background">
-      <img src="img/space.jpg" alt="">
-    </div>
     <div class="inner-background">
       <img src="img/inner.png" alt="" class="img-fluid">
-      <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">LAURE-ANNE URBANIAK <br> DEVELOPPEUSE WEB</h1>
-      <button type="button" name="button" class="btn btn-custom center-block">ME CONTACTER</button>
+      <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">LAURE-ANNE URBANIAK <br> DEVELOPPEUSE WEB JUNIOR</h1>
+      <a href="mailto:laureanne.urbaniak@gmail.com">ME CONTACTER</a>
     </div>
-  </section>
+
+  </header>
+  <!--title-->
 
   <!--Portfolio-->
   <section class="container-fluid experiences" id="portfolio">
@@ -84,168 +62,163 @@
       <div class="row">
         <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Portfolio</h2>
       </div>
-      <div class="allSlides">
-        <ul>
-          <li class="slide"><img src="img/auckland.jpg"></li>
-          <li class="slide"><img src="img/hobbiton.jpeg"></li>
-          <li class="slide"><img src="img/new_zealand.jpg"></li>
-        </ul>
-      </div>
-
-      <hr class="separator">
     </div>
+
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="card my-4" style="width: 20rem;">
+          <img class="card-img-top" src="img/minichat.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Mini chat</h4>
+            <p class="card-text">PHP</p>
+            <a href="https://github.com/Lezzyy/TP_mini_chat" class="btn btn-primary">Voir plus</a>
+          </div>
+        </div>
+        <div class="card my-4" style="width: 20rem;">
+          <img class="card-img-top" src="img/espace_membre.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Espace membre</h4>
+            <p class="card-text">PHP</p>
+            <a href="https://github.com/Lezzyy/TP_espaceMembre_MVC" class="btn btn-primary">Voir plus</a>
+          </div>
+      </div>
+      <div class="card my-4" style="width: 20rem;">
+        <img class="card-img-top" src="img/projet_ecommerce.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Site ecommerce</h4>
+          <p class="card-text">PHP</p>
+          <a href="https://github.com/Simplon-Roubaix/site_ecommerce_Mathieu_Lau" class="btn btn-primary">Voir plus</a>
+        </div>
+      </div>
+      <div class="card my-4" style="width: 20rem;">
+        <img class="card-img-top" src="img/shifumi.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Jeu shifumi</h4>
+          <p class="card-text">Javscript</p>
+          <a href="https://github.com/Lezzyy/Shifumi" class="btn btn-primary">Voir plus</a>
+        </div>
+      </div>
+      <div class="card my-4" style="width: 20rem;">
+        <img class="card-img-top" src="img/slider.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Slider</h4>
+          <p class="card-text">Javascript</p>
+          <a href="https://github.com/Lezzyy/slider" class="btn btn-primary">Voir plus</a>
+        </div>
+      </div>
+      <div class="card my-4" style="width: 20rem;">
+        <img class="card-img-top" src="img/pairegame.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Jeu memory</h4>
+          <p class="card-text">Javascript</p>
+          <a href="https://github.com/Lezzyy/pairs-game" class="btn btn-primary">Voir plus</a>
+        </div>
+      </div>
+    </div>
+    <hr class="separator">
+  </div>
   </section>
-
-
   <!--end portfolio-->
 
   <!--mes expériences-->
   <section class="container-fluid experiences">
     <div class="container">
-      <div class="row">
-        <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="experience">Expériences</h2>
-        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 info">
-          <i class="material-icons colorIcon" style="font-size:48px;">library_books</i>
+      <div class="row card-deck">
+        <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="apropos">À propos</h2>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 info card">
+          <i class="fa fa-sticky-note" style="font-size:36px;"></i>
           <h3 class="text-center">Etudes</h3>
           <p class="text-center">
-            Communication à l'ISTC. <br>
+            Developpement web <br> Formation Back end à Simplon.co promo 2017 Communication à l'ISTC <br>
             <b>Licence et master spécialité digitale</b><br>
             <i>Marketing digital, social media, gestion, graphisme, anglais, communication externe...</i></br>
             <b>Obtention du TOEIC niveau B2</b> (870/990).
           </p>
         </article>
-        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 stage">
-          <i class="material-icons colorIcon" style="font-size:48px;">computer</i>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 stage card">
+          <i class="fa fa-mouse-pointer" style="font-size:36px;"></i>
           <h3 class="text-center">Communication digitale</h3>
           <p class="text-center">
             Stage de <b>5 mois</b> puis alternance d'<b>un an</b> en tant que chargée de communication digitale au sein d'Humanis.</br>
-            <b>Missions principales</b> : développer le contenu sur le site web et gérer la newsletter.
+            <b>Missions principales</b> : développer le contenu sur le site web et gérer la newsletter.<br>
+            <b>Césure de 5 mois en Nouvelle-Zélande</b>:</br>
+            Conseillère bénévole en communication au sein d'une association Polonaise.
           </p>
         </article>
-        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 abroad">
-          <i class="material-icons colorIcon" style="font-size:48px;">card_travel</i>
-          <h3 class="text-center">Nouvelle-Zélande</h3>
+        <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12 abroad card">
+          <i class="fa fa-laptop" style="font-size:48px;"></i>
+          <h3 class="text-center">Développement Web</h3>
           <p class="text-center">
-            <b>Césure de 5 mois</b>.</br>
-            Conseillère bénévole en communication au sein d'une association Polonaise.</br>
-            Femme de ménage chez un grand concessionnaire automobile.
+            <b>Compétences :</b></br>
+            <strong>Javascript </strong>: DOM, Jquery, Ajax, format Json, POO. <br>
+            <strong>PHP </strong>: requêtes SQL, MVC, POO, UML. <br>
+            <strong>OUTILS </strong>: Atom, Git, Github, phpmyadmin, bootstrap.
           </p>
         </article>
       </div>
-      <hr class="separator">
     </div>
   </section>
   <!--end experiences-->
 
-  <!--contact-->
-
-  <section class="container-fluid contact" id="contact">
-    <div class="container">
-      <div class="row">
-        <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-white">Contact</h2>
+  <!--footer-->
+  <footer>
+    <section class="container-fluid contact" id="contact">
+      <div class="container">
+        <h2 class="text-white">Contact</h2>
         <!-- <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <img src="img/LAU.png">
-        </article> -->
-        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <p class="text-white">Pour tous renseignements, n'hésitez pas à me contacter : <br>
-            <i class="small material-icons">email</i>laureanne.urbaniak@gmail.com <br>
+                <img src="img/LAU.png">
+              </article> -->
+        <article>
+          <p class="text-white text-center">Pour tous renseignements, n'hésitez pas à me contacter : <br>
+            <i class="fa fa-envelope" style="font-size:20px"></i>laureanne.urbaniak@gmail.com
         </article>
-        <div class="container form">
+        <div class="container social" id="social">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <div class="well well-sm">
-                <form class="form-horizontal" action="" method="post">
-                  <fieldset>
-                    <legend class="text-center">Contact us</legend>
-
-                    <!-- Name input-->
-                    <div class="form-group">
-                      <label class="col-md-3 control-label" for="name">Name</label>
-                      <div class="col-md-9">
-                        <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                      </div>
-                    </div>
-
-                    <!-- Email input-->
-                    <div class="form-group">
-                      <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                      <div class="col-md-9">
-                        <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                      </div>
-                    </div>
-
-                    <!-- Message body -->
-                    <div class="form-group">
-                      <label class="col-md-3 control-label" for="message">Your message</label>
-                      <div class="col-md-9">
-                        <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                      </div>
-                    </div>
-
-                    <!-- Form actions -->
-                    <div class="form-group">
-                      <div class="col-md-12 text-right">
-                        <button type="submit" class="btn btn-custom btn-lg">Submit</button>
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
+            <a href="https://github.com/Lezzyy" target="_blank"><i class="fa fa-github-square col-md-4 col-lg-4 col-xs-12 col-sm-12" style="font-size:36px"></i></a>
+            <a href="https://www.linkedin.com/in/laure-anne-urbaniak-a837b8a8/" target="_blank"><i class="fa fa-linkedin-square col-md-4 col-lg-4 col-xs-12 col-sm-12" style="font-size:36px"></i></a>
+            <a href="#"><i class="fa fa-twitter-square col-md-4 col-lg-4 col-xs-12 col-sm-12" style="font-size:36px"></i></a>
           </div>
         </div>
+  </footer>
 
-        <!--end contact-->
-
-        <!--footer-->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <!-- <img class="col-xs-4 col-sm-4 col-md-4 col-lg-4" src="img/github.png" alt="">
-        <img class="col-xs-4 col-sm-4 col-md-4 col-lg-4" src="img/icon-linkedin.png" alt="">
-        <img class="col-xs-4 col-sm-4 col-md-4 col-lg-4" src="img/icon-twitter.png" alt=""> -->
-            </div>
-          </div>
-        </footer>
-
-        <!--end footer-->
+  <!--end footer-->
 
 
 
 
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>
-          window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
-        </script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+  </script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-          (function(b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-              function() {
-                (b[l].q = b[l].q || []).push(arguments)
-              });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = 'https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-          }(window, document, 'script', 'ga'));
-          ga('create', 'UA-XXXXX-X', 'auto');
-          ga('send', 'pageview');
-        </script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
 
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>

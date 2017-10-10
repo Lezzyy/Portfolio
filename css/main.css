@@ -112,42 +112,33 @@ nav {
   text-align: left;
 }
 
-nav ul {
+nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-nav li {
+nav ul li {
+  font-size: 1em;
+  margin-top: 10px;
   padding-left: 10px;
-  float: right;
+  float: left;
 }
 
-nav a {
+#menu a{
   text-decoration: none;
-  font-size: 1em;
-  color: #000000;
+  color: white;
 }
 
 nav a:hover {
   border-bottom: 0;
 }
 
-.home {
-  width: 100%;
-  max-width: 100%;
-}
-
-.background {
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-}
-
-.background img {
-  width: 100%;
-  max-width: 100%;
+header{
+background-image: url('../img/space.jpg');
+background-size: cover;
+height: 600px;
 }
 
 .inner-background {
@@ -155,6 +146,19 @@ nav a:hover {
   top: 5%;
   width: 100%;
   text-align: center;
+  SELECT p.ProductName, p.Unit AS format, p.Price, s.SupplierName, s.ContactName, s.Country, c.CategoryName FROM Products p INNER JOIN Suppliers s ON p.SupplierID = s.SupplierID INNER JOIN Categories c ON p.CategoryID = c.CategoryID ORDER BY c.CategoryName
+}
+
+.inner-background a{
+  text-align: center;
+  background-color: #2E0927;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.inner-background a:hover{
+  background-color: #36175E;
 }
 
 .inner-background img {
@@ -168,14 +172,14 @@ nav a:hover {
   font-family: 'Shadows Into Light Two', cursive;
 }
 
-.inner-background .btn-custom {
-  background-color: #2E0927;
-  color: #ffffff;
+.experiences{
+  margin:5px;
+  margin-bottom: 30px;
 }
 
 .info {
   background-color: #25064C;
-  height: 300px;
+  /*height: 300px;*/
   color: #ffffff;
   border-radius: 10px ;
 }
@@ -195,7 +199,7 @@ nav a:hover {
 }
 
 article{
-  padding-left: 4px;
+  /*padding-left: 4px;*/
 }
 
 
@@ -213,6 +217,20 @@ footer {
   background-color: #4A5059;
   margin-top: 0;
   padding: 0;
+}
+
+.social{
+  margin: 0;
+}
+
+.social a{
+  display: block;
+  text-align: center;
+
+}
+
+.social i {
+color: #ffffff;
 }
 
 
