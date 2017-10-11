@@ -172,6 +172,35 @@ height: 600px;
   font-family: 'Shadows Into Light Two', cursive;
 }
 
+/*portfolio*/
+.btn-custom{
+  background-color: white;
+  color : black;
+}
+
+.btn-custom:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+/*.portfolio img{
+  filter: grayscale(100%);
+}
+
+.portfolio img:hover{
+filter: none;
+}*/
+
+.portfolio {
+  filter: grayscale(100%);
+}
+
+.portfolio:hover {
+  filter: none;
+  background-color: black;
+  color: white;
+}
+
 .experiences{
   margin:5px;
   margin-bottom: 30px;
