@@ -101,6 +101,7 @@ textarea {
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: black;
 }
 
 header {
@@ -112,7 +113,7 @@ nav {
   text-align: left;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -122,23 +123,29 @@ nav ul{
 nav ul li {
   font-size: 1em;
   margin-top: 10px;
-  padding-left: 10px;
-  float: left;
+  padding-right: 10px;
+  float: right;
 }
 
-#menu a{
+#menu a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
+}
+
+#menu a:hover{
+  color : #68FDFE;
 }
 
 nav a:hover {
   border-bottom: 0;
 }
 
-header{
-background-image: url('../img/space.jpg');
-background-size: cover;
-height: 600px;
+header {
+  background-image: url('../img/5812.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
 .inner-background {
@@ -146,19 +153,19 @@ height: 600px;
   top: 5%;
   width: 100%;
   text-align: center;
-  SELECT p.ProductName, p.Unit AS format, p.Price, s.SupplierName, s.ContactName, s.Country, c.CategoryName FROM Products p INNER JOIN Suppliers s ON p.SupplierID = s.SupplierID INNER JOIN Categories c ON p.CategoryID = c.CategoryID ORDER BY c.CategoryName
 }
 
-.inner-background a{
+.inner-background a {
   text-align: center;
-  background-color: #2E0927;
-  color: #ffffff;
+  background-color: #68FDFE;
+  color: #000000;
   border-radius: 10px;
-  padding: 15px;
+  /*padding: 5px;*/
 }
 
-.inner-background a:hover{
-  background-color: #36175E;
+.inner-background a:hover {
+  background-color: #000000;
+  color: #68FDFE;
 }
 
 .inner-background img {
@@ -170,17 +177,35 @@ height: 600px;
   color: #ffffff;
   text-shadow: 1px 1px 20px #000000;
   font-family: 'Shadows Into Light Two', cursive;
+  margin-top: 80px;
+}
+
+.inner-background h2{
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 /*portfolio*/
-.btn-custom{
-  background-color: white;
-  color : black;
+
+h2 {
+  color: #ffffff;
 }
 
-.btn-custom:hover{
+.btn-custom {
+  background-color: #68FDFE;
+  color: black;
+}
+
+.btn-custom:hover {
   background-color: #ffffff;
   color: black;
+}
+
+.portfolio {
+  background-color: black;
+  color: white;
+  border-width: medium;
+  border-color: #68FDFE;
 }
 
 /*.portfolio img{
@@ -191,18 +216,18 @@ height: 600px;
 filter: none;
 }*/
 
-.portfolio {
+/*.portfolio {
   filter: grayscale(100%);
-}
+}*/
 
-.portfolio:hover {
+/*.portfolio:hover {
   filter: none;
   background-color: black;
   color: white;
-}
+}*/
 
-.experiences{
-  margin:5px;
+.experiences {
+  margin: 5px;
   margin-bottom: 30px;
 }
 
@@ -210,27 +235,26 @@ filter: none;
   background-color: #25064C;
   /*height: 300px;*/
   color: #ffffff;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 
-.stage{
-  background-color:#36175E;
+.stage {
+  background-color: #36175E;
   height: 300px;
   color: #ffffff;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 
-.abroad{
+.abroad {
   background-color: #7B52AB;
   height: 300px;
   color: #ffffff;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 
-article{
+article {
   /*padding-left: 4px;*/
 }
-
 
 .contact {
   background-color: #36175E;
@@ -238,7 +262,7 @@ article{
   padding: 0;
 }
 
-.form{
+.form {
   color: #ffffff;
 }
 
@@ -248,18 +272,17 @@ footer {
   padding: 0;
 }
 
-.social{
+.social {
   margin: 0;
 }
 
-.social a{
+.social a {
   display: block;
   text-align: center;
-
 }
 
 .social i {
-color: #ffffff;
+  color: #ffffff;
 }
 
 
