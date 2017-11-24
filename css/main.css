@@ -181,7 +181,7 @@ header {
 .inner-background h1 {
   color: #ffffff;
   text-shadow: 1px 1px 20px #000000;
-  font-family: 'Shadows Into Light Two', cursive;
+  /*font-family: 'Shadows Into Light Two', cursive;*/
   margin-top: 80px;
 }
 
@@ -210,11 +210,35 @@ h3 {
   color: #68FDFE;
 }
 
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.infos{
+  height: 100%;
+  bottom: -90%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+.project:hover .infos{
+  bottom: 0%;
+}
+
 .portfolio {
   background-color: black;
   color: white;
-  border-width: medium;
-  border-color: #4cb9b9;
+  /*border-width: medium;*/
+  /*border-color: #4cb9b9;*/
 }
 /*end protfolio*/
 
