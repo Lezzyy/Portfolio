@@ -211,19 +211,48 @@ h3 {
 }
 
 .project {
+  padding-right: 0;
   position: relative;
   overflow: hidden;
+  /*height: 200px;*/
 }
 
 .project img {
   height: 100%;
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+/*
+#ecommerce{
+  background-image: url('../img/projet_ecommerce.jpg');
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+
 }
 
-.infos{
+#minichat{
+  background-image: url('../img/minichat.jpg');
   height: 100%;
-  bottom: -90%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#membre{
+  background-image: url('../img/espace_membre.jpg');
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}*/
+
+.infos{
+  /*padding: 0 10px;*/
+  /*ma*/
+  height: 100%;
+  bottom: -85%;
   width: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
@@ -232,6 +261,12 @@ h3 {
 
 .project:hover .infos{
   bottom: 0%;
+  padding: 0;
+}
+
+.infos p{
+  color: white;;
+  width: 95%;
 }
 
 .portfolio {
@@ -288,8 +323,21 @@ h3 {
   color: #ffffff;
 }
 
-i {
+#contact a{
+  text-decoration: none;
   color: #ffffff;
+}
+
+#contact a:hover{
+color : #68FDFE;
+}
+
+#contact i {
+  color: #ffffff;
+}
+
+#contact i:hover{
+color : #68FDFE;
 }
 
 /*end footer*/
