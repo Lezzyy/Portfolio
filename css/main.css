@@ -529,7 +529,6 @@ h3 {
 /*footer start*/
 
 .contact #emoji{
-  float: left;
   position: absolute;
   width: 20%;
   margin-left:39%;
@@ -542,12 +541,12 @@ h3 {
   height: 220px;
 }
 
-.contact img{
+/*.contact img{
   position: absolute;
   width: 5%;
   margin-left:46%;
   top: 13%;
-}
+}*/
 
 #contact h2{
   margin-top: 120px;
@@ -572,6 +571,62 @@ h3 {
 }
 
 /*end footer*/
+
+
+/*media query*/
+
+@media screen and (max-width: 574px){
+
+  .studies, .stage{
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  .main li {
+    margin-bottom: 300px;
+  }
+
+  #last{
+    margin-bottom: 0px;
+  }
+
+}
+
+@media screen and (min-width:1041px) and (max-width: 1257px){
+  .contact #emoji{
+    /*float: left;*/
+    position: absolute;
+    width: 20%;
+    margin-left:39%;
+    top: 0;
+    margin-bottom: 100px;
+  }
+
+  .contact h2{
+    margin-bottom:90px;
+  }
+
+  .contact {
+    height: 250px;
+  }
+  }
+
+@media screen and (max-width:1040px){
+  .contact h2{
+    margin-bottom:70px;
+  }
+
+  .contact #emoji{
+    /*float: left;*/
+    position: absolute;
+    width: 20%;
+    margin-left:39%;
+    top: 0;
+    margin-bottom: 100px;
+  }
+}
 
 /* ==========================================================================
    Helper classes
