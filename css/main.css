@@ -108,6 +108,7 @@ body {
 
 header {
   height: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 nav {
@@ -150,6 +151,7 @@ header {
   width: 100%;
 }
 
+
 .inner-background {
   position: absolute;
   top: 20%;
@@ -187,6 +189,8 @@ header {
   text-shadow: 1px 1px 20px #000000;
   /*font-family: 'Shadows Into Light Two', cursive;*/
   margin-top: 80px;
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 .inner-background h2{
@@ -295,23 +299,65 @@ h3 {
 	box-shadow: 0 0 1px rgba(255,255,255,0.9);
 }
 
+.img1{
+  background-image: url('../img/books.png');
+  background-size: 100px;
+  background-color: #6AFFFE;
+  height:250px;
+  width: 250px;
+}
+
+.th h2{
+  margin-top: 90px;
+}
+
+.img2{
+  background-image: url('../img/credit-card.png');
+  background-size: 100px;
+  background-color: #6AFFFE;
+  height:250px;
+  width: 250px;
+}
+
+.img3{
+  background-image: url('../img/vehicle.png');
+  background-size: 100px;
+  background-color: #6AFFFE;
+  height:250px;
+  width: 250px;
+}
+
+.img4{
+  background-image: url('../img/ecommerce.png');
+  background-size: 100px;
+  background-color: #6AFFFE;
+  height:250px;
+  width: 250px;
+}
+
+.img5{
+  background-image: url('../img/chat.png');
+  background-size: 100px;
+  background-color: #6AFFFE;
+  height:250px;
+  width: 250px;
+}
+
+.img6{
+  background-image: url('../img/member.png');
+  background-size: 100px;
+  background-color: #6AFFFE;
+  height:250px;
+  width: 250px;
+}
+
 .img{
   background-image: url('../img/projet_ecommerce.jpg');
   height:250px;
   width: 250px;
 }
 
-.img5{
-  background-image: url('../img/minichat.jpg');
-  height:250px;
-  width: 250px;
-}
 
-.img6{
-  background-image: url('../img/espace_membre.jpg');
-  height:250px;
-  width: 250px;
-}
 
 .img7{
   background-image: url('../img/shifumi.jpg');
@@ -596,7 +642,6 @@ h3 {
 
 @media screen and (min-width:1041px) and (max-width: 1257px){
   .contact #emoji{
-    /*float: left;*/
     position: absolute;
     width: 20%;
     margin-left:39%;
@@ -619,7 +664,6 @@ h3 {
   }
 
   .contact #emoji{
-    /*float: left;*/
     position: absolute;
     width: 20%;
     margin-left:39%;
