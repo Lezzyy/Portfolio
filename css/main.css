@@ -190,7 +190,7 @@ header {
   /*font-family: 'Shadows Into Light Two', cursive;*/
   margin-top: 80px;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 250%;
 }
 
 .inner-background h2{
@@ -302,19 +302,25 @@ h3 {
 .img1{
   background-image: url('../img/books.png');
   background-size: 100px;
-  background-color: #6AFFFE;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
 
 .th h2{
   margin-top: 90px;
+  font-weight: bold;
+}
+
+#project_title{
+  color: #275d5d;
+
 }
 
 .img2{
   background-image: url('../img/credit-card.png');
   background-size: 100px;
-  background-color: #6AFFFE;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
@@ -322,7 +328,7 @@ h3 {
 .img3{
   background-image: url('../img/vehicle.png');
   background-size: 100px;
-  background-color: #6AFFFE;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
@@ -330,7 +336,7 @@ h3 {
 .img4{
   background-image: url('../img/ecommerce.png');
   background-size: 100px;
-  background-color: #6AFFFE;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
@@ -338,7 +344,7 @@ h3 {
 .img5{
   background-image: url('../img/chat.png');
   background-size: 100px;
-  background-color: #6AFFFE;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
@@ -346,7 +352,7 @@ h3 {
 .img6{
   background-image: url('../img/member.png');
   background-size: 100px;
-  background-color: #6AFFFE;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
@@ -360,19 +366,25 @@ h3 {
 
 
 .img7{
-  background-image: url('../img/shifumi.jpg');
+  background-image: url('../img/leaves.png');
+  background-size: 100px;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
 
 .img8{
-  background-image: url('../img/slider.jpg');
+  background-image: url('../img/kiwi.png');
+  background-size: 100px;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
 
 .img9{
-  background-image: url('../img/pairegame.jpg');
+  background-image: url('../img/memory.png');
+  background-size: 100px;
+  background-color: #57d1d0;
   height:250px;
   width: 250px;
 }
