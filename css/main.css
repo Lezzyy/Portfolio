@@ -524,6 +524,12 @@ h3 {
 
 /*a propos start*/
 
+.apropos hr{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
 .apropos img{
   position: absolute;
   width: 5%;
